@@ -1,0 +1,29 @@
+# initialization
+System = Co3Sn2S2
+ISTART = 1; ICHARG = 11 # to read charge density from CHGCAR file
+ISPIN=2
+
+# electronic optimization
+ENCUT  = 400 # energy cut off 
+ISMEAR = -5 # Tetrahedron method
+
+# DOS stuff 
+LORBIT = 11 # output DOSCAR and PROCAR
+NEDOS = 1000 $ num points of DOS
+# EMIN, EMAX, and NBANDS can be neglected for defaults by VASP
+
+
+# SOC
+ ISYM =0
+ ISPIN = 2
+ LNONCOLLINEAR = T
+ NUPDOWN=0
+ LSORBIT = T
+ SAXIS =   0 0 1
+ GGA_COMPAT = F
+ LMAXMIX = 4
+ NBANDS = 252
+
+
+ NCORE = 4
+
