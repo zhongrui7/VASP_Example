@@ -1,0 +1,20 @@
+# initialization
+System = Co3Sn2S2
+ISTART = 0 # for new calculation
+ICHARG = 2
+LREAL = A
+ISPIN = 2 
+
+# electronic optimization
+ENCUT  = 350 # energy cut off 
+ISMEAR = -5 # Tetrahedron method
+LORBIT = 11 
+EDIFF = 1E-06 # electronic convergence treshold, the lower the more precise results
+
+# Ionic relaxation 
+IBRION = -1 
+NSW = 0 # NO ionic movement 
+
+NCORE = 4
+
+
