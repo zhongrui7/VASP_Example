@@ -8,7 +8,7 @@ LREAL= A
 ENCUT  = 400 # energy cut off 
 ISMEAR = -5 # Tetrahedron method
 LORBIT = 11 
-EDIFF = 1E-06 # electronic convergence treshold, the lower the more precise results
+EDIFF = 1E-06 # electronic convergence threshold, the lower the more precise results
 
 # Ionic relaxation 
 IBRION = -1 
